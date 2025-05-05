@@ -1,5 +1,5 @@
 output "public-ip" {
-  description = "Public IP"
+  description = "Public of IP"
   value       = aws_instance.terraform-cloud-vm.*.public_ip
 }
 
